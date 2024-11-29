@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Eat Baked.inc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      <div class="top-bar">
+        <div class="search-bar">
+            <input type="text" placeholder="Search What You Want!">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="user-links">
+                <a href="log-in.html">LOG IN</a> | 
+                <a href="#">MY CART (0)</a> | 
+                <a href="contact.html">CONTACT US</a>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Baker's Brew">
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="christmas.html">CHRISTMAS</a></li>
+                <li><a href="#">CORPORATE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="transition-overlay"></div>
+    <!-- Log In Section -->
+    <div class="form-container">
+      <!-- Sign In Form -->
+      <div class="form-box">
+        <h2>Sign In</h2>
+        <form>
+          <label for="email-signin">Email *</label>
+          <input type="email" id="email-signin" placeholder="Enter your email" required>
+          <small>Enter your Baker's Brew Studio Pte. Ltd. email address.</small>
+  
+          <label for="password">Password *</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+          <small>Enter the password that accompanies your username.</small>
+  
+          <button type="submit" class="btn">Log In</button>
+          <a href="#" class="forgot-password">Forgotten Password?</a>
+        </form>
+      </div>
+  
+      <!-- Register Form -->
+      <div class="form-box">
+        <h2>Register</h2>
+        <form>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Enter your first name">
+  
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Enter your last name">
+  
+          <label for="email-register">Email Address *</label>
+          <input type="email" id="email-register" placeholder="Enter your email address" required>
+          <small>A valid email address. All communication will be sent to this address.</small>
+  
+          <label for="birthdate">Birthdate *</label>
+          <input type="text" id="birthdate" placeholder="Format: DD-MM-YYYY" required>
+          <small>Format: DD-MM-YYYY</small>
+  
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Boms & Buns. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

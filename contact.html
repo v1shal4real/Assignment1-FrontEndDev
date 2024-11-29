@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Boms & Buns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+       <div class="top-bar">
+            <div class="search-bar">
+                <input type="text" placeholder="Search What You Want!">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="user-links">
+                <a href="log-in.html">LOG IN</a> | 
+                <a href="#">MY CART (0)</a> | 
+                <a href="contact.html">CONTACT US</a>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Baker's Brew">
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="christmas.html">CHRISTMAS</a></li>
+                <li><a href="#">CORPORATE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="transition-overlay"></div>
+    <!-- Contact Us Section -->
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <!-- Contact Details Section -->
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h2>Contact Details</h2>
+                    <p><strong>WHATSAPP</strong><br>+65 8877 8870<br>(WhatsApp only, no calls)<br>Mon-Fri: 9 AM to 5:30 PM<br>Sat: 9 AM to 1 PM</p>
+                    <p><strong>EMAIL</strong><br>enquiries@bakersbrew.com</p>
+                    <p><strong>CORPORATE ORDERS</strong><br>corporate@bakersbrew.com</p>
+                    <p>For a complete list of our outlets, visit our <a href="#">Locate Us</a> page.</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h2>Contact Us</h2>
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Your Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    
+                    <label for="contact-number">Contact Number</label>
+                    <input type="tel" id="contact-number" name="contact-number" placeholder="Enter your contact number">
+                    
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                    
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <script src="contact-script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Boms & Buns. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
