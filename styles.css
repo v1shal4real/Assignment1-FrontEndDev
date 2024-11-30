@@ -118,35 +118,96 @@ nav .logo img {
   color: #d4a056; /* Gold color for hover effect */
 }
 /* About Us Section */
-.about-us {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 40px;
+/* About Us Section */
+.about-us-section {
+  text-align: center;
+  padding: 50px 20px;
 
 }
 
-.about-container {
-  max-width: 600px;
-}
-
-.about-container h1 {
-  font-size: 32px;
+.about-us-section h2 {
+  font-size: 2rem;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.about-container p {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.8;
+.about-us-section p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.icon-box {
+  text-align: center;
+}
+
+.icon-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.icon-box p {
+  font-size: 1rem;
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 5px;
   margin-bottom: 15px;
 }
 
-.about-image img {
-  width: 400px;
-  height: auto;
-  border-radius: 10px;
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 /* Contact Us Section */
