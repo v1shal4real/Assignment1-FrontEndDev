@@ -9,7 +9,7 @@ function addToCart() {
 }
 
 // Attach event to buttons (if any)
-// Example: Add items to cart
+
 document.querySelectorAll('.add-to-cart-button').forEach(button => {
     button.addEventListener('click', addToCart);
 });
