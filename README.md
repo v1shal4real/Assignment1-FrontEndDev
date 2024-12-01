@@ -1,1 +1,9 @@
 # Assignment1-FrontEndDev
+For my Front-End project, I developed a website for a fictional bakery named Eat Baked, Inc. The goal was to create a fun and stylish platform where users can explore custom cakes, place online orders, and learn about baking classes. I aimed to make the site modern and easy to navigate while ensuring it feels cozy and welcoming, just like a real bakery.
+
+The site features an engaging video background, customer testimonials, and dedicated sections for corporate orders. I put a lot of effort into making everything responsive, so it looks fantastic on both computers and mobile devices. Overall, this project was a lot of fun and allowed me to enhance my coding skills in HTML, CSS, and JavaScript. I'm really proud of it as it showcases my creativity and dedication.
+
+Essentially, this website was meant to be created for the general public who would want to order cakes for any special occasion, like Christmas or a Corporate celebration. But it also provides a more detailed information on what kind of bakery we actually are. We do not just deliver cakes and snacks, we also hold baking classes. So if one is interested in learning how to bake or a certain company wants to do a baking session as part of their bonding day, why don't they do it from the best, Eat Baked.inc. 
+
+
+The Eat Baked, Inc. website offers users a convenient and engaging platform to explore and order bakery services. It features customized cakes, online ordering, and corporate solutions, addressing both personal and professional needs. Customers can also join baking classes, enriching their experience while connecting with the brand. With its modern design, customer testimonials, and vibrant visuals, the site guarantees a smooth and enjoyable user experience, highlighting the bakery’s creativity and commitment to its customers.
