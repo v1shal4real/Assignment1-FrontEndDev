@@ -296,6 +296,8 @@ nav .logo img {
 }
 
 
+
+
 /* Contact Us Section */
 .contact-section {
   display: flex;
@@ -570,7 +572,7 @@ body {
 
 .shop-now {
   background-color: #fff;
-  color: #e6da39;
+  color: #589cba;
   padding: 12px 25px;
   border: none;
   border-radius: 5px;
@@ -584,6 +586,65 @@ body {
   background-color: #f7e28f;
   color: white;
 }
+
+/* White Christmas Section Styling */
+.white-christmas {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Background Video */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Foreground Content */
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Optional semi-transparent background for readability */
+  border-radius: 15px;
+}
+
+
+.text-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color:#c8c063
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
 
 /* Product Grid Section */
 .product-grid {
